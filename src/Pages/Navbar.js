@@ -43,7 +43,7 @@ export default function Navbar() {
 
   return (
     <div className=' relative'>
-    <motion.div className="fixed top-0 left-0 right-0  flex justify-between items-center w-[95%] h-12 bg-black text-gray-500 px-12  text-lg z-10" variants={navAnimation} initial="hidden" animate="show" >
+    <motion.div className="fixed top-0 left-0 right-0  flex justify-between items-center w-[100%] h-12 bg-black text-gray-500 px-12  text-lg z-10" variants={navAnimation} initial="hidden" animate="show" >
     
        
         <motion.h1 className=''variants={navItem} >M.Andorful</motion.h1>
@@ -68,7 +68,7 @@ export default function Navbar() {
 
     {isOpen &&  (
 
-  <Fade top>  <ul className="  bg-black w-full  mx-auto pt-4   flex flex-col  text-gray-500 fixed top-10 right-0 z-10  transition ease-in-out duration-500 ">  
+  <Fade top>  <ul className="  bg-black w-full  mx-auto pt-4   flex flex-col  text-gray-500 fixed top-10 right-0 z-10   ">  
 
 <a href="#Intro" onClick={toggleMenu}> <li className='m-6 border-b border-gray-600' >Introduction</li></a>
 <a href="#About" onClick={toggleMenu}> <li className='m-6 border-b border-gray-600' > About </li></a>
