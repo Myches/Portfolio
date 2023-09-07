@@ -49,7 +49,7 @@ export default function About() {
 
 
       
-       <Zoom> <h1 className="text-teal-400  flex justify-center items-center my-12 text-gray-400 tracking-[3px] leading-[1.1] text-lg ">WHO AM I</h1></Zoom>
+       <Zoom> <h1 className="text-teal-400  flex justify-center items-center my-12 text-gray-400 tracking-[3px] leading-[1.1] text-lg ">ABOUT ME</h1></Zoom>
 <div className="md:w-[80%] w-full mx-auto mt-[70px]   flex flex-col justify-center items-center gap-y-12 text-lg">
 
 

@@ -1,7 +1,6 @@
 import "../App.css";
 import {motion} from 'framer-motion'
-import Jump from 'react-reveal/Jump'
-import {AiFillCaretDown} from 'react-icons/ai'
+import {BsArrowDownShort} from 'react-icons/bs'
 
 export default function Introduction() {
     
@@ -48,8 +47,8 @@ export default function Introduction() {
      <motion.p className="text-gray-500 flex flex-col mt-8 text-lg font-light leading-related" variants={explainProduct} initial="hidden" animate="show"> I'm a frontend developer who love building amazing design and fantastic user experiences  . </motion.p>
 
 
-     <a href="#About" className="text-[70px] text-teal-400 md:flex md:justify-center md:items-center mt-[90px] hidden ">
-    <Jump forever delay={6500}> <AiFillCaretDown  /></Jump>
+     <a href="#About" className="text-[40px] text-teal-400 flex justify-center items-center mt-[90px]  ">
+    <div> <BsArrowDownShort  /></div>
     </a>
    </div>  
       </div>

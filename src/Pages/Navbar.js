@@ -43,7 +43,7 @@ export default function Navbar() {
 
   return (
     <div className=' relative'>
-    <motion.div className="fixed top-0 left-0 right-0  flex justify-between items-center w-[100%] h-12 bg-black text-gray-500 px-12  text-lg z-10" variants={navAnimation} initial="hidden" animate="show" >
+    <motion.div className="fixed top-0 left-0 right-0  flex justify-between items-center w-[95%] h-12 bg-black text-gray-500 px-12  text-lg z-10" variants={navAnimation} initial="hidden" animate="show" >
     
        
         <motion.h1 className=''variants={navItem} >M.Andorful</motion.h1>
