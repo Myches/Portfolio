@@ -39,7 +39,7 @@ export default function Introduction() {
         <div className="w-full flex flex-col md:flex flex-row pt-[150px]  md:mb-[200px] sm:mb-0">
       <div className="w-2/3  mx-auto  mt-12 ">
         
-     <motion.h1 className='md:text-6xl text-5xl lg:text-7xl font-medium text' variants={typingContainer} initial="hidden" animate="show" > {
+     <motion.h1 className='md:text-6xl text-5xl lg:text-7xl font-medium  text' variants={typingContainer} initial="hidden" animate="show" > {
               Array.from("Hi, I'm Michael ! Welcome to my portfolio.").map((word,i) => (
               <motion.span key={i} variants={typingText}>{word}</motion.span>
               ))

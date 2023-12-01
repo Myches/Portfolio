@@ -1,6 +1,6 @@
 import "../App.css";
 import js from '../Images/js.png'
-import  TextLoop  from 'react-text-loop';
+
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import next from '../Images/next.png'
@@ -16,7 +16,7 @@ import bootstrap from '../Images/bootstrap.png'
 import material from '../Images/material.png'
 import html from '../Images/html.png'
 import vite from '../Images/vite.jpg'
-
+import ts from '../Images/ts.png'
 
 
 
@@ -24,18 +24,6 @@ import vite from '../Images/vite.jpg'
 
 export default function About() {
   
-  const images = [
-    { src: next, alt: 'Next.js' },
-    { src: material, alt: 'Material-UI' },
-    { src: framer, alt: 'Framer Motion' },
-    { src: netlify, alt: 'Netlify' },
-    { src: react, alt: 'React' },
-    { src: tailwind, alt: 'Tailwind CSS' },
-    { src: git, alt: 'Git' },
-    { src: github, alt: 'GitHub' },
-    { src: chakra, alt: 'Chakra UI' },
-    { src: bootstrap, alt: 'Bootstrap' },
-  ];
   
     return (
     <div className="pb-40 ">
@@ -55,7 +43,7 @@ export default function About() {
 
 <Fade  bottom>
 <div className="text-gray-500 ">
-  <p >Hi, I'm Michael Ebo Andorful, a self-taught front-end developer . I specialize in building user interfaces and web applications using mainly React, HTML, CSS, and JavaScript. 
+  <p >Hi, I'm Michael Ebo Andorful, a self-taught front-end developer . I specialize in building user interfaces and web applications using mainly React, HTML, CSS,JavaScript and Typescript. 
   With a strong passion for creating intuitive and visually appealing websites, I strive to deliver high-quality code and engaging user experiences.</p>
 <p className="pt-4 "> Additionally,  I continuously stay updated with the latest trends and advancements in front-end development through online courses and self-learning.
   I am passionate about expanding my knowledge and skills in front-end development and keeping up with industry best practices.</p> 
@@ -70,8 +58,9 @@ If you have any questions or would like to discuss potential collaborations, fee
 <div className="md:gap-x-12 gap-y-12 flex flex-col  md:space-y-0 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 ">
 
 <Zoom>
- <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-40"> <img src={html} alt="img" />HTML</div>
+ <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-70"> <img src={html} alt="img" />HTML</div>
  <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-70"> <img src={js} alt="img" />JAVASCRIPT</div>
+ <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-70"> <img src={ts} alt="img" />TYPESCRIPT</div>
 <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-70">  <img src={react} alt="img" />REACT JS</div>
 <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-70"> <img src={next} alt="img" />NEXT JS</div>
  <div className="flex justify-around items-center bg-white text-black py-2 border rounded-lg opacity-70 "> <img src={material} alt="img" />MATERIAL UI</div> 

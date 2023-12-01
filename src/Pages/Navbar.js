@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 import '../index.css'
 import { useState } from "react";
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
-import portfolio from '../Images/portfolio.png'
+import '../App.css'
 import Fade from 'react-reveal/Fade';
 
 export default function Navbar() {
@@ -50,7 +50,7 @@ export default function Navbar() {
      
       <ul className="flex justify-around items-center  cursor-pointer hidden md:flex  nav "   >  
 
-      <a href="#Intro">   <motion.li className='mx-6 active'  variants={navItem}>Introduction</motion.li></a>
+      <a href="#Intro">   <motion.li className='mx-6 active '  variants={navItem}>Introduction</motion.li></a>
       <a href="#About">    <motion.li className='mx-6 '  variants={navItem}> About </motion.li></a>
       <a href="#Projects">    <motion.li className='mx-6 ' variants={navItem} >Projects</motion.li></a>
       <a href="#Contact">    <motion.li className='mx-6 ' variants={navItem} >Contact</motion.li></a>

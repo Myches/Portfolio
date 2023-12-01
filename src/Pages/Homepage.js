@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 function Homepage() {
     return (
-     <div className="bg-black h-screen w-full px-2 md:px-4 mx-auto text-white overflow-auto  "style={{ scrollBehavior: 'smooth' }} >
+     <div className=" h-screen w-full px-2 md:px-4 mx-auto text-white overflow-auto  "style={{ scrollBehavior: 'smooth' }} >
       <Navbar />
 
       <div className=" " id="Intro"> <Introduction /></div>
