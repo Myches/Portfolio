@@ -57,7 +57,7 @@ export default function Navbar() {
       </ul>
 
       <button className="md:hidden  absolute right-5 top-3 bg-White-950 " onClick={toggleMenu}>
-    {!isOpen ? <AiOutlineMenu /> : <AiOutlineClose /> }
+    {!isOpen ? <AiOutlineMenu    /> : <AiOutlineClose      /> }
         </button>
        
     </motion.div> 
@@ -79,6 +79,8 @@ export default function Navbar() {
 </Fade>
 
     )}
+
+    
     </div> 
   );
 }
