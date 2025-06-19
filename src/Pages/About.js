@@ -65,7 +65,7 @@ export default function About() {
   ];
 
   return (
-    <div className="">
+    <div className="md:px-4 px-0">
       <header className=" flex items-center">
         <h2 className="w-24 text-sm uppercase tracking-wider text-dark-200">About</h2>
         <div className="h-[1px] flex-1 bg-teal-500"></div>
@@ -75,10 +75,10 @@ export default function About() {
         <h1 className="text-teal-400 flex justify-center items-center my-12 text-gray-400 tracking-[3px] leading-[1.1] text-2xl">ABOUT ME</h1>
       </Zoom>
 
-      <div className="md:w-[80%] w-full mx-auto mt-[40px] flex flex-col justify-center items-center gap-y-14 text-lg">
+      <div className=" w-full mx-auto mt-[40px] flex flex-col justify-center items-center gap-y-14 text-lg">
         <Fade bottom>
           <div className="text-gray-500">
-            <p>Hi, I'm Michael Ebo Andorful, a self-taught front-end developer. I specialize in building user interfaces and web applications using mainly React/Next js and TypeScript. 
+            <p>Hi, I'm Michael Ebo Andorful, a front-end developer with several years of experience. I specialize in building user interfaces and web applications using mainly React/Next js and TypeScript. 
             I'm passionate about making websites that are easy to use and aesthetically pleasing .I strive to deliver high-quality code and engaging user experiences</p>
             <p className="pt-4">Additionally, I continuously stay updated with the latest trends and advancements in front-end development through online courses and self-learning.
             I am passionate about expanding my knowledge and skills in front-end development and keeping up with industry best practices.</p> 
